@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/dsernst/quick-is-prime/issues"
   },
-  "homepage": "https://github.com/dsernst/quick-is-prime#readme"
+  "homepage": "https://github.com/dsernst/quick-is-prime#readme",
+  "dependencies": {
+    "sieve-set": "^1.0.0"
+  }
 }
