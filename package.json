@@ -1,7 +1,7 @@
 {
   "name": "quick-is-prime",
   "version": "1.0.0",
-  "description": "Quickly test if a number is prime, using a cached Sieve of Eratosthenes",
+  "description": "Test if a number is prime in constant time, using a cached Sieve of Eratosthenes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
