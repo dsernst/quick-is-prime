@@ -21,6 +21,9 @@ console.log(isPrime(47)); // true
 console.log(isPrime(48)); // false
 console.log(isPrime(61)); // true
 console.log(isPrime(100)); // false
+
+console.log(isPrime(9998903)) // true, only takes 1.5 seconds
+console.log(isPrime(9893899)) // true, adds no extra calculation time
 ```
 
 This module uses a cached Sieve of Eratosthenes for constant time lookup. A new one will be automatically generated if the prime is larger than the current cached sieve. 
