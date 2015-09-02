@@ -17,11 +17,13 @@ var isPrime = require('quick-is-prime');
 ## Usage
 
 ```js
+// Simple examples
 console.log(isPrime(47)); // true
 console.log(isPrime(48)); // false
 console.log(isPrime(61)); // true
 console.log(isPrime(100)); // false
 
+// More challenging examples
 console.log(isPrime(9998903)) // true, only takes 1.5 seconds
 console.log(isPrime(9893899)) // true, adds no extra calculation time
 ```
