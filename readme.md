@@ -2,7 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/quick-is-prime.svg)](https://www.npmjs.com/package/quick-is-prime)
 
-Test if a number is prime in constant time, using a cached Sieve of Eratosthenes.
+Test if a number is prime in constant time, using a cached Sieve of Eratosthenes. This is especially helpful to test many numbers' primality.
 
 ## Install
 
