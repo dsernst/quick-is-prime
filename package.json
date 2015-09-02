@@ -1,5 +1,5 @@
 {
-  "name": "is-prime-quick",
+  "name": "quick-is-prime",
   "version": "1.0.0",
   "description": "Quickly test if a number is prime, using a cached Sieve of Eratosthenes",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsernst/is-prime-quick.git"
+    "url": "git+https://github.com/dsernst/quick-is-prime.git"
   },
   "keywords": [
     "prime",
@@ -22,7 +22,7 @@
   "author": "David Ernst <npm@dsernst.com> (http://dsernst.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dsernst/is-prime-quick/issues"
+    "url": "https://github.com/dsernst/quick-is-prime/issues"
   },
-  "homepage": "https://github.com/dsernst/is-prime-quick#readme"
+  "homepage": "https://github.com/dsernst/quick-is-prime#readme"
 }
