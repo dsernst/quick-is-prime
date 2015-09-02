@@ -28,6 +28,6 @@ console.log(isPrime(9998903)) // true, only takes 1.5 seconds
 console.log(isPrime(9893899)) // true, adds no extra calculation time
 ```
 
-This module uses a cached Sieve of Eratosthenes for constant time lookup. A new one will be automatically generated if the prime is larger than the current cached sieve. 
+This module uses a cached Sieve of Eratosthenes for constant time lookup. A new one will be automatically generated if the number you're testing is larger than the currently cached sieve's upper bound.
 
-For best results, check primes highest to lowest. Alternatively, if you know what the upper-bound will be, you can just check that first and then not be concerned with the order.
+**For best results**, check primes highest to lowest. Or alternatively, if you know what the upper bound will be, just check that first to not be concerned with the order.
