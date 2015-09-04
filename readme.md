@@ -2,6 +2,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/quick-is-prime.svg)](https://www.npmjs.com/package/quick-is-prime)
 [![Build Status](https://travis-ci.org/dsernst/quick-is-prime.svg?branch=master)](https://travis-ci.org/dsernst/quick-is-prime)
+[![Coverage Status](https://coveralls.io/repos/dsernst/quick-is-prime/badge.svg?branch=master&service=github)](https://coveralls.io/github/dsernst/quick-is-prime?branch=master)
 
 Test if a number is prime in constant time, using a cached Sieve of Eratosthenes. This is especially helpful to test many numbers' primality.
 
