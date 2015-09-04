@@ -4,7 +4,8 @@
   "description": "Test if a number is prime in constant time, using a cached Sieve of Eratosthenes.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover _mocha"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "sieve-set": "^1.0.2"
   },
   "devDependencies": {
+    "istanbul": "^0.3.19",
     "mocha": "^2.3.0"
   }
 }
