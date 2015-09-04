@@ -41,3 +41,9 @@ To run the test suite, first install the dependencies, then run `npm test`:
 $ npm install
 $ npm test
 ```
+
+To test code coverage:
+
+```
+$ npm run cover
+```
