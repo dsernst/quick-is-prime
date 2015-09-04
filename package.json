@@ -4,7 +4,7 @@
   "description": "Test if a number is prime in constant time, using a cached Sieve of Eratosthenes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,8 @@
   "homepage": "https://github.com/dsernst/quick-is-prime#readme",
   "dependencies": {
     "sieve-set": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
   }
 }
