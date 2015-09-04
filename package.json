@@ -1,6 +1,6 @@
 {
   "name": "quick-is-prime",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Test if a number is prime in constant time, using a cached Sieve of Eratosthenes.",
   "main": "index.js",
   "scripts": {
