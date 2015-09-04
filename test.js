@@ -18,7 +18,10 @@ describe('isPrime', function () {
     assert(isPrime(9998903) === true);
   });
 
-  it('is very quick for numbers less than the highest already tested', function () {
+  it('takes less than a millisecond to test numbers less than the highest already tested', function () {
+    var start = process.hrtime();
     assert(isPrime(9893899) === true);
+    var durationInNanoseconds = process.hrtime(start)[1];
+    assert(durationInNanoseconds < 1000000);
   });
 });
