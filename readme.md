@@ -31,3 +31,12 @@ console.log(isPrime(9893899)) // true, takes less than a millisecond
 This module uses a cached Sieve of Eratosthenes for constant time lookup. A new one will be automatically generated if the number you're testing is larger than the currently cached sieve's upper bound.
 
 **For best results**, check primes highest to lowest. Or alternatively, if you know what the upper bound will be, just check that first to not be concerned with the order.
+
+## Tests
+
+To run the test suite, first install the dependencies, then run `npm test`:
+
+```
+$ npm install
+$ npm test
+```
