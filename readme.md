@@ -20,14 +20,14 @@ var isPrime = require('quick-is-prime');
 
 ```js
 // Simple examples
-console.log(isPrime(47)); // true
-console.log(isPrime(48)); // false
-console.log(isPrime(61)); // true
-console.log(isPrime(100)); // false
+isPrime(47) // => true
+isPrime(48) // => false
+isPrime(61) // => true
+isPrime(100) // => false
 
 // More challenging examples
-console.log(isPrime(9998903)) // true, takes 1.5 seconds
-console.log(isPrime(9893899)) // true, takes less than a millisecond
+isPrime(9998903) // => true, takes 1.5 seconds
+isPrime(9893899) // => true, takes less than a millisecond
 ```
 
 This module uses a cached Sieve of Eratosthenes for constant time lookup. A new one will be automatically generated if the number you're testing is larger than the currently cached sieve's upper bound.
